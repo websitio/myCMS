@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Fly" xml:space="preserve">
+    <value>Fly</value>
+  </data>
+  <data name="Learn" xml:space="preserve">
+    <value>Learn</value>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>Love</value>
+  </data>
+  <data name="promo1" xml:space="preserve">
+    <value>No Booking Fees</value>
+  </data>
+  <data name="promo2" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="promo3" xml:space="preserve">
+    <value>Click Name to Book</value>
+  </data>
+  <data name="promo4" xml:space="preserve">
+    <value>Free Yellow Bird discount card when you book here</value>
+  </data>
+  <data name="promo5" xml:space="preserve">
+    <value>Total value of discounts worth up to 400€ for free!</value>
+  </data>
+  <data name="promo6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radio" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="WebSites" xml:space="preserve">
+    <value>Web Sites</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome to</value>
+  </data>
+  <data name="extra5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="extra1" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="extra2" xml:space="preserve">
+    <value>Radio Stations</value>
+  </data>
+  <data name="extra3" xml:space="preserve">
+    <value>Video Events</value>
+  </data>
+  <data name="extra4" xml:space="preserve">
+    <value>Image Carosel</value>
+  </data>
+  <data name="extra6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu1" xml:space="preserve">
+    <value>Visit Cafe Florin</value>
+  </data>
+  <data name="menu10" xml:space="preserve">
+    <value>Photos and Prints</value>
+  </data>
+  <data name="menu11" xml:space="preserve">
+    <value>Events and Trips</value>
+  </data>
+  <data name="menu12" xml:space="preserve">
+    <value>Web Sites</value>
+  </data>
+  <data name="menu13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu15" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu17" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu18" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu19" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu2" xml:space="preserve">
+    <value>Best Holiday Deals</value>
+  </data>
+  <data name="menu20" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu3" xml:space="preserve">
+    <value>PC Wifi Network</value>
+  </data>
+  <data name="menu4" xml:space="preserve">
+    <value>Telephone to U.K.</value>
+  </data>
+  <data name="menu5" xml:space="preserve">
+    <value>Food and Drink</value>
+  </data>
+  <data name="menu6" xml:space="preserve">
+    <value>Gay Popular</value>
+  </data>
+  <data name="menu7" xml:space="preserve">
+    <value>Travel tips and Info</value>
+  </data>
+  <data name="menu8" xml:space="preserve">
+    <value>Island News</value>
+  </data>
+  <data name="menu9" xml:space="preserve">
+    <value>Spain and Music</value>
+  </data>
+  <data name="pic1" xml:space="preserve">
+    <value>gb/HolidayAccm.png</value>
+  </data>
+  <data name="pic2" xml:space="preserve">
+    <value>gb/NoFees.png</value>
+  </data>
+  <data name="pic3" xml:space="preserve">
+    <value>gb/BestPrice.png</value>
+  </data>
+  <data name="pic4" xml:space="preserve">
+    <value>gb/carlseberg.jpg</value>
+  </data>
+  <data name="pic5" xml:space="preserve">
+    <value>gb/back.png</value>
+  </data>
+  <data name="pic6" xml:space="preserve">
+    <value>gb/memory.png</value>
+  </data>
+  <data name="promo7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="promo8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="promo9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message1" xml:space="preserve">
+    <value>Click so that you can easily find this exact page another day.</value>
+  </data>
+  <data name="message2" xml:space="preserve">
+    <value>Save 30€ per day per person, 5-20% discounts from over XXX paricipating business, click to see locaions, amounts and more details.</value>
+  </data>
+  <data name="message3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="message7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="map" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="extra7" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,1 @@
+FOR %%file in ("*.gif") DO echo %%file

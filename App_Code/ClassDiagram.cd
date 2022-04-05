@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Webica.Thecopy" Collapsed="true">
+    <Position X="2.25" Y="1.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Articles.cs</FileName>
+      <HashCode>BACAAAAAAAAAAEAAAgEgAAQAAAAAAACAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Webica.Articles" Collapsed="true">
+    <Position X="0.5" Y="0.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Articles.cs</FileName>
+      <HashCode>AAAkAAAAABAABAARhAAACAAAAQAgEAABIAAAAAAAAgI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasePage" Collapsed="true">
+    <Position X="2.25" Y="0.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BasePage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demo" Collapsed="true">
+    <Position X="4" Y="0.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\webica\2a3d62da\55b10eaa\Sources_App_Code\demo.xsd.72cecc2a.cs</FileName>
+      <HashCode>gAABAAAAAwAAAAJABAAAQAAAAAgCQBgAgAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewerArticles" Collapsed="true">
+    <Position X="0.5" Y="1.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\webica\2a3d62da\55b10eaa\Sources_App_Code\newerarticles.xsd.72cecc2a.cs</FileName>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebArticles" Collapsed="true">
+    <Position X="2.25" Y="2.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\webica\2a3d62da\55b10eaa\Sources_App_Code\webarticles.xsd.72cecc2a.cs</FileName>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAQAAEABJA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApps" Collapsed="true">
+    <Position X="4" Y="1.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\WebApps.cs</FileName>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAAAAQAAAAAACAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="demoTableAdapters.WebAppsTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="2.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\webica\2a3d62da\55b10eaa\Sources_App_Code\demo.xsd.72cecc2a.cs</FileName>
+      <HashCode>EAQAAGAAABAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebArticlesTableAdapters.WebArticleTableAdapter" Collapsed="true">
+    <Position X="4" Y="2.5" width="1.5" />
+    <TypeIdentifier>
+      <FileName>C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\webica\2a3d62da\55b10eaa\Sources_App_Code\webarticles.xsd.72cecc2a.cs</FileName>
+      <HashCode>EAQAAGAAAAAAAAMAIAAAAAAAACEKCAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IArticle" Collapsed="true">
+    <Position X="0.5" Y="3.75" width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Interfaces\IArticle.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

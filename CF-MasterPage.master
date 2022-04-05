@@ -1,0 +1,448 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CF-MasterPage.master.cs" Inherits="CF_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="MainPromo.css" type="text/css" rel="stylesheet" />
+
+
+
+  
+     
+<script type="text/javascript">
+
+    function dateTime() {
+        var days = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+        var now = new Date()
+        var result = now.toLocaleString()
+        return result
+    }
+
+    function ticktock() {
+        time.innerText = dateTime()
+        //document.forms[0].clock.value=dateTime() 
+        setTimeout("ticktock()", 1000)
+    }
+
+
+    function loader() {
+
+        handle = window.open("http://www.gay-gran-canaria.com/EditorHTML.aspx", "handle", "toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=364,height=742,left=510,top=450");
+
+    }
+
+</script>
+
+
+<%--whacky booking .com stuff--%>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="//aff.bstatic.com/static/affiliate_base/css/position.1611.css" />
+<link rel="stylesheet" type="text/css" href="//aff.bstatic.com/static/affiliate_base/css/color.1611.css" />
+<link rel="stylesheet" type="text/css" href="//aff.bstatic.com/static/affiliate_base/css/text.1611.css" />
+<link rel="stylesheet" type="text/css" href="http://q.bstatic.com/images/affiliate/1/generated.css" />
+<link rel="stylesheet" type="text/css" href="http://q.bstatic.com/images/affiliate/1/style.css" />
+<link rel="stylesheet" type="text/css" href="http://q.bstatic.com/images/affiliate/3/generated.css" />
+<link rel="stylesheet" type="text/css" href="http://q.bstatic.com/images/affiliate/3/style.css" />
+<link rel="stylesheet" type="text/css" href="http://q.bstatic.com/images/affiliate/332892/generated.css" />
+<link rel="stylesheet" type="text/css" href="http://q.bstatic.com/images/affiliate/332892/style.css" />
+
+
+
+<!-- Specific CSS for an embedded searchbox -->
+<script type="text/javascript">
+    function addzero(value) {
+        while (value.length < 2) value = String("0") + value;
+        return value;
+    }
+   
+</script>
+
+<script type="text/javascript">
+    function checkDateOrder(frm, ci_day, ci_month_year, co_day, co_month_year) {
+        if (document.getElementById) {
+            var frm = document.getElementById(frm);
+            // create date object from checkin values
+            // set date to 12:00 to avoid problems with one
+            // date being wintertime and the other summertime
+            var my = frm[ci_month_year].value.split("-");
+            var ci = new Date(my[0], my[1] - 1, frm[ci_day].value, 12, 0, 0, 0);
+
+            // create date object from checkout values
+            my = frm[co_month_year].value.split("-");
+            var co = new Date(my[0], my[1] - 1, frm[co_day].value, 12, 0, 0, 0);
+
+            // if checkin date is at or after checkout date,
+            // add a day full of milliseconds, and set the
+            // selectbox values for checkout date to new value
+            if (ci >= co) {
+                co.setTime(ci.getTime() + 1000 * 60 * 60 * 24);
+                frm[co_day].value = co.getDate();
+                var com = co.getMonth() + 1;
+                frm[co_month_year].value = co.getFullYear() + "-" + com;
+            }
+        }
+    }
+</script>
+
+
+<%--end whacky booking .com stuff--%>
+
+
+
+
+<head runat="server">
+
+<link  href="http://www.cafeflorin.com/pdi.css" type="text/css" rel="stylesheet" />
+
+<link rel="shortcut icon" href="http://www.cafeflorin.com/CF.ico" />
+	<meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.5)"/>
+	
+<meta name="keywords" xml:lang="en" content="Spanish Lessons, course, teacher, learn,speak, Canary Islands, Cheap, Apartments, Bungalows, Hotels, Gay, holiday, Gran Canaria, Playa del Ingles, Maspalomas, visit, tourist, Spanish, Carnival, Carnaval, GayPride, 2012, deals, Cheap Flights, Low cost holidays, half price, special reductions, last minute, jobs, help, tourists, television, internet, WiFi, shops, shopping, Airlines, beach, clubs, pubs, bar, bars, directory, guide, Guide, London, Florin, Food, night life"/>
+
+<meta  name="keywords" xml:lang="es" content="Aprender Ingles, Curso, vacaciones, Gran Canaria, Playa del Ingles, Maspalomas, visita, turísticos, español, Carnaval, Orgullo de 2010, Hoteles, Bungalows, Apartamentos, ofertas, vuelos baratos, vacaciones de bajo coste, a mitad de precio, descuentos especiales, de última hora, el empleo, ayudar a , los turistas, televisión, Internet, WiFi, tiendas, centros comerciales, líneas aéreas, playa, clubes, pubs, bar, bares, directorio, guía, Guía, Londres, Florin, Alimentación, vida nocturna"/>
+
+<meta name="keywords"  xml:lang="de" content="Urlaub, Gran Canaria, Playa del Ingles, Maspalomas, Besuch, Tourist, Spanisch, Carnival, Pride, 2010, Hotels, Bungalows, Apartments, Angebote, Billigflüge, Low Cost Urlaub, zum halben Preis, besondere Ermäßigungen, Last Minute, Arbeitsplätze, helfen , Touristen, Fernsehen, Internet, WiFi, Geschäfte, Einkaufen, Airlines, Strand, Clubs, Pubs, Bar, Bars, Verzeichnis, Guide, Guide, London, Florin, Essen, Nachtleben"/>
+
+<meta name="description" content="Holiday Accommodation booking system, Local Wifi Services, Fast track Spanish Lessons, Free Language Exchange Program,
+Low cost international call Telephones, Web site developers, Popular Cafe Bar, Online Publishing, Sales and Marketing, Translation services, Software courses, mobile phone and broadband resellers"/>
+<meta name="revisit-after" content="1 day"/>
+
+
+
+
+<style type="text/css">
+
+	* {
+		margin: 0;
+	}
+
+	a img {
+		border: 0;
+	}
+
+	body {
+		background: none !important;
+	 
+}
+	
+	/* Reset some weird affiliate-specific settings if present */
+	.b_bContent {
+		position: static;
+		background: none;
+		margin: 0;
+	}
+
+	#b_searchboxInc {
+		width: 350px !important;
+		text-align: left;
+                color: inherit;
+	}
+	
+        #b_searchboxInc #b_frmInner, #b_hotelTmpl .b_availFormInner {
+                background-color: #;
+        }
+
+	#b_frmInner {
+		overflow: hidden;
+	}
+
+	input.b_submitButton {
+		float: right;
+	}
+	
+	#b_searchboxInc a.calender img {
+		background: #003580;
+	}
+
+	.blur {
+		color: #999 !important;
+	}
+	
+	#b_calendarPopup {
+		font: 12px/1.5 Arial, Helvetica, sans-serif;
+		color: #003580;
+	    display: none;
+	    position: absolute;
+	    background-image: url(http://q.bstatic.com/static/img/shadow3.png);
+	    padding: 0 4px 4px 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+        .r
+    {
+        background-color: #0000FF; padding-left:3px; width:88px; height:16px;
+    }
+    
+    .r2
+    {
+        background-color: #0033CC; 
+         width:104px; height:16px;
+    }
+    
+    .p
+    {
+        background-color: #3366FF;
+         width:186px; height:15px;
+    }
+    
+    .t
+    {
+        color:Black; font-size:11px;  font-family:Arial;
+        width :5px;
+    }
+    
+    
+    .rp
+    {
+        background-color: #0000FF;
+         width:14px; height:20px;
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+
+
+
+<body onload="Begin();BeginFind();ticktock();SetDateOptions()">
+
+
+
+<%--CLOCK TIME TIME--%>
+<div id="time" style="z-index: 95100; 
+           left: 385px; 
+           width: 308px; 
+           color: #003399; 
+           position: absolute; 
+           top: 106px; 
+           height: 17px; 
+           font-size: 8pt; 
+           vertical-align: middle; 
+           text-align: center;"></div>
+           
+
+
+
+
+
+
+
+
+   
+<script type="text/javascript">
+
+
+    function SetDateOptions() {
+        StayDates(1, 'r2c1'); StayDates(7, 'r2c3');
+        StayDates(7, 'r3c1'); StayDates(14, 'r3c3');
+        StayDates(14, 'r4c1'); StayDates(21, 'r4c3');
+        StayDates(21, 'r5c1'); StayDates(28, 'r5c3');
+        StayDates(28, 'r6c1'); StayDates(35, 'r6c3');
+    }
+
+
+
+
+    function StayDates(D, blo) {
+
+        d = new Date();
+        var dgo1 = d.setDate(d.getDate() + D);
+
+        var div = document.getElementById(blo.toString());
+        // div.innerHTML = "<b>" + d.toDateString() + "</b";
+        div.innerHTML = "<b>" + d.toLocaleDateString() + "</b";
+
+
+    }
+
+
+
+    function CheckinDateOpt1(D) {
+
+        d = new Date();
+        var dgo1 = d.setDate(d.getDate() + D);
+
+        var div = document.getElementById("r1c1");
+        div.innerHTML = "<b>" + d.toDateString() + "</b";
+
+
+    }
+
+
+
+    function CheckOutDateOpt1(D) {
+        d = new Date();
+        var dgo1 = d.setDate(d.getDate() + D);
+        var div = document.getElementById("r1c3");
+        div.innerHTML = "<b>" + d.toDateString() + "</b";
+
+
+    }
+
+
+</script>
+
+
+
+<%--    <table id="grid" 
+              
+        style="  position:absolute; 
+        top:264px;   z-index:9999200;   padding: 2px; margin: 2px; font-family:Arial;  font-size:8pt; color: #FFFFFF; text-align: left; border-spacing: 2px; table-layout: fixed; width: 238px; 
+        left: 339px;">
+
+        <tr>
+        <td id="r1c1" class="r2"><b>&nbsp; CHECK-IN</b></td>
+        <td id="r1c2" class="t"></td>
+        <td id="r1c3" class="r2" ><b>&nbsp; CHECK-OUT</b></td>
+        </tr>
+
+        <tr>
+        <td id="r2c1" class="r"></td>
+        <td id="r2c2" class="t">-</td>
+        <td id="r2c3" class="r"></td>
+        
+       
+        </tr>
+
+        <tr>
+        <td id="r3c1" class="r"></td>
+        <td id="r3c2" class="t">-</td>
+        <td id="r3c3" class="r"></td>
+        </tr>
+
+ <tr>
+        <td id="r4c1" class="r"></td>
+        <td id="r4c2" class="t">-</td>
+        <td id="r4c3" class="r"></td>
+        </tr>
+
+
+ <tr>
+        <td id="r5c1" class="r"></td>
+        <td id="r5c2" class="t">-</td>
+        <td id="r5c3" class="r"></td>
+        </tr>
+
+<tr>
+        <td id="r6c1" class="r"></td>
+        <td id="r6c2" class="t">-</td>
+        <td id="r6c3" class="r"></td>
+        </tr>
+
+
+</table>
+--%>
+
+
+
+    <form id="form1" runat="server">
+    <div>
+
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+    
+
+     <%--   	<div id="VisitorsOnline" 
+                  style="position:absolute; top:73px; left:821px; z-index:999999999; width: 132px; color: #000080; height: 18px; font-family: Arial; font-size: 10px; text-decoration: blink; font-weight: bolder;"> 
+		            Visitors online now :<%=Application["OnlineUsers"].ToString() %>
+		   </div>--%>
+    
+    </form>
+
+
+<%--SOCIAL NETWORKING--%>
+
+
+
+
+
+
+<!-- AddThis Button BEGIN -->
+<%--<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+
+</div>
+<script type="text/javascript">    var addthis_config = { "data_track_clickback": true };</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4df6ce1e7b06c8d7"></script>
+</div>--%>
+
+
+<%--
+<div id="donate" style="position:absolute; top:2798px; left:10px; z-index:9999999">
+Please help us continue our <br />
+intercambio de idiomas<br />
+intiative for the people of<br />
+the Canary Islands,Spain<br />
+and the peoples of <br />
+Southern America<br /><br />
+
+       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="73H6SNACB4N48">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>--%>
+
+
+
+
+</body>
+</html>

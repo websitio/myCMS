@@ -1,0 +1,413 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebicaPage.master.cs" Inherits="WebicaPage" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" >
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+  <script src="http://www.google.com/jsapi" type="text/javascript" >
+  
+  </script> 
+  
+
+<script language="Javascript" type="text/javascript">        //<![CDATA[
+        google.load('search', '1');
+
+        function OnLoad() {
+
+            // create a search control
+            //  var searchControl = new google.search.SearchControl();
+
+            var customSearchControl = new google.search.CustomSearchControl('005713333282537047268:xycgg0g6jj8');
+
+            customSearchControl.draw(document.getElementById("search_control"));
+
+            // execute an inital search
+            customSearchControl.execute("Gay Pride");
+        }
+        google.setOnLoadCallback(OnLoad);
+        //]]>
+    </script>
+    
+<script type="text/javascript">
+
+
+           function dateTime() {
+               var days = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+               var now = new Date()
+               var result = now.toLocaleString()
+               return result
+           }
+
+           function ticktock() {
+               time.innerText = dateTime()
+               //document.forms[0].clock.value=dateTime() 
+               setTimeout("ticktock()", 1000)
+           }
+
+
+
+
+
+</script>
+
+
+<script type="text/javascript" src="JavaScript\findDOM.js">
+		
+		</script>
+	
+<script type="text/javascript">
+
+
+    function AsktheBird(arg) {
+       
+        
+        google.load('search', '1');
+
+    
+
+            var customSearchControl = new google.search.CustomSearchControl('005713333282537047268:xycgg0g6jj8');
+
+
+            customSearchControl.draw(document.getElementById("search_control"));
+
+            // execute an inital search
+            customSearchControl.execute(arg);
+        
+        google.setOnLoadCallback(OnLoad);
+    }
+    
+    
+  
+  
+
+</script>
+
+
+
+  
+  
+  
+    
+      <script  id="AsktheBird" type="text/javascript">
+
+
+          function AsktheBird(arg) {
+
+
+              google.load('search', '1');
+
+
+
+              var customSearchControl = new google.search.CustomSearchControl('005713333282537047268:xycgg0g6jj8');
+
+
+              customSearchControl.draw(document.getElementById("search_control"));
+
+              // execute an inital search,codename but don't ask a Dutchman
+              customSearchControl.execute(arg);
+
+              google.setOnLoadCallback(OnLoad);
+          }
+    
+
+</script>
+ 
+
+<head runat="server">
+
+
+
+
+
+
+<link  href="http://www.cafeflorin.com/pdi.css" type="text/css" rel="stylesheet" />
+	<meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.5)"/>
+	
+<meta name="keywords" content="Gay, holiday, Playa del Ingles, Maspalomas, visit, tourist, Spanish, Carnival, Pride, 2012, Hotels, Bungalows, Apartments,Cheap, Low cost, half price, jobs, help, tourists, television, internet, WiFi, shops, shopping, Airlines, beach, clubs, pubs, bar, bars, directory, guide, Guide, London, Florin, Food, night life"/>
+<meta name="description" content="Gay Gran Canaria Accomodation, Apartments,Tips, reviews, Cheap flights, Maspalomas Pride 2012, Playa del Ingles, Yumbo, Bars, Clubs, Chat, Coffee, Beach, Internet, Telephones, Food"/>
+<meta name="revisit-after" content="1 day"/>
+	
+	
+
+  
+</head>
+
+<body id="pagebody" ondblclick="x2()" onload="ticktock()" bgcolor="white" >
+    <form id="form1" runat="server" >
+    
+    
+    <div  id="Copyright";
+        style="
+        left: 161px; 
+        position: absolute; 
+        top: 3490px; 
+        z-index: 2006; 
+        width: 646px; 
+        height: 20px;" 
+        class="center">
+    Copyright protected.© 1999-2010 All rights reserved. 
+    </div>
+    
+    
+    <div>
+        &nbsp;<asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+ 
+			
+	<img id="folder1" title="Contact TLL." style="z-index: 802; left: 12px; 
+	    position: absolute; 
+	    top: 318px; 
+	    visibility: hidden;"
+onclick="zoompart1c(),this.src='images/folderLondon2.gif';" onmouseout="this.src='images/folder.gif';"
+		alt="" src="images/folder.gif" width="18" />
+		
+    </form>
+    
+    
+    <TEXTAREA id="holdtext" style="DISPLAY: none; left: 32px; 
+        position: absolute; top: 217px"
+				name="holdtext"></TEXTAREA>
+				
+				
+    <div style="z-index: 2007; left: 8px; width: 87px; position: absolute; top: 299px;
+        height: 19px; visibility: hidden;">
+        Contact London</div>
+        
+       
+<table id="Sitos_Espania"
+ align="left" 
+ cellpadding="2" 
+ cellspacing="0" 
+ class="style1" 
+ 
+ style=" position:absolute; 
+     left:2px; 
+     top: 1850px; 
+     width: 103px;  
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 11px;">
+             <tr>
+            <td class=style2>
+              <b> Top Spanish Web sites <br />in Spain</b></td>
+         </tr>
+      
+        <tr>
+            <td class="style2">
+               submerge yourself a little more in Spanish life and language.</td>
+            
+        </tr>
+        
+       
+        <tr>
+            <td class="style2">
+               <a href="http://www.sport.es" target="_new" title="Spanish Sports. View sports events from Spanish perspective, English version available">
+               Sport.es</a>
+              </td>
+            
+        </tr>
+        
+        
+        <tr>
+            <td class="style2">
+               <a href="http://www.marca.com" target="_new" title="Up to date Sports News, editorials site to accompany MARCA the magazine">marca.com</a></td>
+               
+            
+        </tr>
+        
+             <tr>
+            <td class="style2">
+               <a href="http://www.tuenti.com" target="_new" title="The most popular chat room for the Spanish, THE place to mingle and learn">tuenti.com</a></td>
+            <td>
+               
+        </tr>
+        
+        
+        
+              <tr>
+            <td class="style2">
+               <a href="http://www.elmundo.es" target="_new" title="Major Spanish News paper site">elmundo.es</a></td>
+           
+        </tr>
+         <tr>
+            <td class="style2">
+               <a href="http://www.elpias.com" target="_new">elpias.com</a></td>
+            </tr>
+             <tr>
+            <td class="style2">
+               <a href="http://www.taringa.net" target="_new">taringa.net</a></td>
+            
+        </tr>
+        
+        
+        
+        
+        <tr>
+            <td class="style2">
+               <a href="http://www.ebay.es" target="_new">ebay.es</a></td>
+            
+        </tr>
+        
+          
+        
+        
+        
+        
+          <tr>
+            <td class="style2">
+               <a href="http://www.segundamano.es" target="_new">segundamano.es</a></td>
+            
+        </tr>
+        
+        
+        
+              <tr>
+            <td class="style2">
+               <a href="http://www.20minutos.es" target="_new">20minutos.es</a></td>
+            
+        </tr>
+        
+        
+                <tr>
+            <td class="style2">
+               <a href="http://www.vagos.es" target="_new">vagos.es</a></td>
+           
+        </tr>
+        
+        
+        
+        
+              <tr>
+            <td class="style2">
+               <a href="http://www.terra.es" target="_new"
+               title="Free email, light topical content">terra.es</a></td>
+            
+        </tr>
+        
+        
+        
+         <tr>
+            <td class="style2">
+               <a href="http://www.telecinco.es/" target="_new"
+                title="T.V. stations site">telecinco.es</a></td>
+            
+        </tr>
+        
+        
+        
+          <tr>
+            <td class="style2">
+               <a href="http://www.rtve.es" target="_new">rtve.es</a></td>
+            
+        </tr>
+        
+        
+               
+        
+         <tr>
+            <td class="style2">
+               <a href="http://www.rumbo.es" target="_new">rumbo.es</a></td>
+         </tr>
+                
+        <tr>
+            <td class="style2">
+               <a href="http://www.cinetube.es/" target="_new">cinetube.es</a></td>
+        </tr>
+        
+            
+        
+       <tr>
+            <td class="style2">
+               <a href="http://www.aemet.es" target="_new"
+                title="The weather site the Spain looks at most">aemet.es</a></td>
+             </tr>
+        
+        
+    <tr>
+            <td class="style2">
+               <a href="http://www.celldorado.es" target="_new"
+                title="Content for mobile cell phones"
+               >celldorado.es</a></td>
+            
+        </tr>
+        
+        
+        
+        
+      <tr>
+            <td class="style2">
+               <a href="http://www.privalia.com" target="_new"
+                title="Direct marketing club discounts commerce"
+               >privalia.com</a></td>
+              </tr>
+        
+      
+        </table>
+ 
+
+    
+    
+    
+    
+
+        
+            
+      
+    
+    
+    <div style="text-align: right; 
+         margin-bottom: 8px;">
+    </div>
+   
+
+
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-9837744-2");
+        pageTracker._trackPageview();
+    } catch (err) { }</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </body>
+</html>
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+     

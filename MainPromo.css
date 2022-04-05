@@ -1,0 +1,124 @@
+﻿body {
+}
+        
+        
+        .starprice { background-image: url(/images/starprice.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 28px; margin-left: 1px; height:28px; }
+        .whiteborder {    border: 1px solid #FFFFFF;}
+        .white { color:White}
+         .box        { width:151px; }
+
+         .boxtop   {
+         background-image:url(/images/boxtop.png);
+		        background-repeat:no-repeat; background-position:left top;
+		        height:8px; overflow:hidden; font-size:0; line-height:0;
+	                }
+       
+       
+        .boxtopcurve   { background-repeat:no-repeat; background-position:left top;
+		background-image :url(/images/boxtopcurve.png);
+		            height:8px; overflow:hidden; font-size:0; line-height:0;
+	                }
+              
+         .boxtitle { font-family: Arial; font-size: 14px; font-weight: bold; color:#FFFFFF; text-decoration: underline; padding-top: 8px;padding-left: 8px; }
+          .boxtitleblu  {   font-family: Arial;font-size: 14px; font-weight: bold; color: #000080; text-decoration: underline;  padding-top: 8px;
+                            padding-left: 8px;
+                        }  
+
+          .boxbody { 
+          background-image: url(/images/boxbody.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+
+            .boxtext
+                {
+                    padding: 2px 15px 0 16px;
+                    font-family: Arial, Trebuchet MS, Helvetica;
+                    font-size: 10pt;
+                    color: #FFFFFF;
+                }
+                
+                            
+            .boxtextblu
+                {
+                    padding: 2px 15px 0 16px;
+                    font-family: Arial, Trebuchet MS, Helvetica;
+                    font-size: 10pt;
+                    color: #003399;
+                }
+                
+
+            .boxbottom  { background-repeat:no-repeat; background-position:left top; 
+            background-image :url(/images/boxbottom.png);
+		                height:10px; overflow:hidden; font-size:0; line-height:0; }
+
+            .boxlink { background-repeat: no-repeat; background-position: left top; 
+            background-image: url(/images/boxlink.png);
+                     padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+            
+            .boxlinkTxt { font-family: 'Trebuchet MS'; font-size: 9pt; color: #FFFFFF; }
+             
+             
+             
+              .boxtop   {background-image:url(/images/boxtop.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve  { background-image :url(/images/boxtopcurve.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody { background-image: url(/images/boxbody.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom  { background-repeat:no-repeat; background-position:left top; background-image :url(/images/boxbottom.png); height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink { background-image: url(/images/boxlink.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+              
+                            
+              
+              .boxtop-blu        {background-image:url(/images/boxtop_blu.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtop_blu_0000FF  {background-image:url(/images/boxtop_blu_0000FF.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-blu   { background-image :url(/images/boxtopcurve_blu.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-blu       { background-image: url(/images/boxbody_blu.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-blu_0000FF     { background-image :url(/images/boxbottom_blu_0000FF.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbottom-blu     { background-image :url(/images/boxbottom_blu.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }  
+              .boxlink-blu       { background-image: url(/images/boxlink_blu.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+              
+              .boxtop-gre        {background-image:url(/images/boxtop_gre.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-gre   { background-image :url(/images/boxtopcurve_gre.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-gre       { background-image: url(/images/boxbody_gre.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-gre     { background-image :url(/images/boxbottom_gre.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink-gre       { background-image: url(/images/boxlink_gre.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+              
+              .boxtop-org        {background-image:url(/images/boxtop_org.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-org   { background-image :url(/images/boxtopcurve_org.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-org       { background-image: url(/images/boxbody_org.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-org     { background-image :url(/images/boxbottom_org.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink-org       { background-image: url(/images/boxlink_org.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+             
+              .boxtop-yel        {background-image:url(/images/boxtop_yel.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-yel   { background-image :url(/images/boxtopcurve_yel.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-yel       { background-image: url(/images/boxbody_yel.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-yel     { background-image :url(/images/boxbottom_yel.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink-yel       { background-image: url(/images/boxlink_yel.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+             
+             
+              .boxtop-gre2        {background-image:url(/images/boxtop_gre2.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-gre2   { background-image :url(/images/boxtopcurve_gre2.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-gre2       { background-image: url(/images/boxbody_gre2.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-gre2     { background-image :url(/images/boxbottom_gre2.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink-gre2       { background-image: url(/images/boxlink_gre2.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+             
+             
+              .boxtop-pur        {background-image:url(/images/boxtop_pur.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-pur   { background-image :url(/images/boxtopcurve_pur.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-pur       { background-image: url(/images/boxbody_pur.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-pur     { background-image :url(/images/boxbottom_pur.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink-pur       { background-image: url(/images/boxlink_pur.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+             
+             
+              .boxtop-lblu        {background-image:url(/images/boxtop_lblu.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0;}
+              .boxtopcurve-lblu   { background-image :url(/images/boxtopcurve_lblu.png); background-repeat:no-repeat; background-position:left top; height:8px; overflow:hidden; font-size:0; line-height:0; }
+              .boxbody-lblu       { background-image: url(/images/boxbody_lblu.png); height:100%;width:100%; font-family: Arial; font-size: 12px; }
+              .boxbottom-lblu     { background-image :url(/images/boxbottom_lblu.png);background-repeat:no-repeat; background-position:left top;  height:10px; overflow:hidden; font-size:0; line-height:0; }
+              .boxlink-lblu      { background-image: url(/images/boxlink_lblu.png); background-repeat: no-repeat; background-position: left top; padding: 0px 0px 0px 8px; width: 42px; margin-left: 8px; height:20px; }
+              
+             
+             
+        
