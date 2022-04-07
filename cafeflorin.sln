@@ -1,26 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cafeflorin", ".", "{7F4633C4-6DB7-4A5E-BDA7-FA51A7F218BE}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "myCMS", ".", "{7F4633C4-6DB7-4A5E-BDA7-FA51A7F218BE}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58257"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Project 2018\WebSites\cafeflorin\"
+		Debug.AspNetCompiler.PhysicalPath = "..\myCMS\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58257\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_58257"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Project 2018\WebSites\cafeflorin\"
+		Release.AspNetCompiler.PhysicalPath = "..\myCMS\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58257\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "58257"
+		SlnRelativePath = "..\myCMS\"
 	EndProjectSection
 EndProject
 Global
