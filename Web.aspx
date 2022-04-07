@@ -11,18 +11,8 @@
         style="z-index: 104; left: 911px; position: absolute; top: 1px; height: 36px;" 
         Visible="False"></asp:Label>
 
-    <script type="text/javascript">
-        function Gored() { CafeFlorinAddressDirection.style.borderColor = "#FF0000"; }
-        function GoOrange() { CafeFlorinAddressDirection.style.borderColor = "#FF9900"; }                         
-        function oscillate() 
-         {setTimeout("Gored()", 3000); setTimeout("GoOrange()", 3200);   }
-
-         function Begin() { setInterval("oscillate()", 4000);    }
     
-    
-    </script>
-    
-        
+   <%--      
     <table id="TopMenuTable"  style="
         top: 70px; 
         left: 168px; 
@@ -73,11 +63,11 @@
              </table>
     
 
-<%--    
+   
     --%>
   
  
-            <div style="z-index: 2006; left: 1150px; width: 257px; position: absolute; top: 209px; height: 175px; background-color:indianred">
+            <div style="z-index: 2006; left: 1px; width: 2px; position: absolute; top: 2px; height: 1px; background-color:indianred">
             <asp:PlaceHolder ID="PlaceHolder2" runat="server">
             </asp:PlaceHolder>
             </div>
